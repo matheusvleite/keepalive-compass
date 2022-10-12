@@ -21,21 +21,32 @@
 
         <section class="welcome__main">
 
-            <h2 class="welcome__main-title">Olá</h2>
-            <p class="welcome__main-text">Para continuar navegando de forma segura, efetue o login na rede.</p>
-            <h3 class="welcome__main-login-title">Login</h3>
-
-            <form id="welcome__main-form">
-
-                <input type="email" id="Email" class="welcome__main-form-email">
-                <label for="Email"><img src="./img/icon-user.svg" alt="User Login"></label>
-                <input type="password" id="Password" class="welcome__main-form-pw">
-                <label for="Password"><img src="./img/icon-password.svg" alt="Password Login"></label>
-                <button class="welcome__main-form-btn" type="submit">Continuar</button>
-
-            </form>
-
-            <img src="./img/Logo-Compasso-white.svg" alt="Logo Compasso" class="welcome__main-logo">
+            <div class="welcome__main--left">
+                <div class="welcome__main-content">
+                    <h2 class="welcome__main-title">Olá,</h2>
+                    <p class="welcome__main-text">Para continuar navegando de forma segura, efetue o login na rede.</p>
+                    <form class="welcome__main-form">
+                        <h3 class="welcome__main-login-title">Login</h3>
+                        <div class="welcome__main-login">
+                            <input type="text" id="user" placeholder="Usuário" required
+                                class="welcome__main-form-input">
+                            <label for="user"><img src="./img/icon-user.svg" class="welcome__main-form-icon"
+                                    alt="User Login"></label>
+                        </div>
+                        <div class="welcome__main-login">
+                            <input type="password" id="password" placeholder="Senha" required
+                                class="welcome__main-form-input">
+                            <label for="password"><img src="./img/icon-password.svg" class="welcome__main-form-icon"
+                                    alt="Password Login"></label>
+                        </div>
+                        <p class="warning-text"></p>
+                        <button class="welcome__main-form-btn" type="submit">Continuar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="welcome__main--right">
+                <img src="./img/Logo-Compasso-white.svg" alt="Logo Compasso" class="welcome__main-logo">
+            </div>
 
         </section>
 
