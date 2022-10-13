@@ -51,3 +51,55 @@
     font-weight: 700;
     color: var(--subtitle-color);
 }
+
+footer {
+    background: var(--bg-gradiente);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer__navigation-item-descrip {
+    margin: 1rem;
+    padding: 0 5rem;
+    text-align: right;
+    border-right: 1px solid white;
+}
+
+.footer__navigation-item-refresh {
+    margin: 1rem;
+}
+
+.footer__navigation-item-counter {
+    margin: 1rem;
+    text-align: center;
+}
+
+.counter {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.footer__navigation-item-continue {
+    background-color: white;
+    margin: 1rem;
+    padding: 2.9rem;
+}
+
+.continue-link {
+    color: var(--subtitle-color);
+    text-decoration: none;
+}
+
+.footer__navigation-item-logout {
+    margin: 1rem;
+}
+
+.item-logout {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 700;
+}

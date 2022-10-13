@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Compass - Home</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
@@ -13,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="menu__widgets">
@@ -49,19 +51,26 @@
         </section>
     </main>
     <footer>
-        <nav class="footer__navigation">
-            <ul class="footer__navigation-list">
-                <li class="footer__navigation-item">
-                    Essa janela do navegador é usada para manter sua sessão de 
-                    autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova 
-                    janela para continuar a navegar.
-                </li>
-                <li class="footer__navigation-item">Application refresh in</li>
-                <li class="footer__navigation-item">600 seconds</li>
-                <li class="footer__navigation-item">Continuar Navegando</li>
-                <li class="footer__navigation-item">Logout</li>
-            </ul>
-        </nav>
+        <div class="footer__navigation-item-descrip">
+            <p class="item-descrip">Essa janela do navegador é usada para manter sua sessão de
+                autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova
+                janela para continuar a navegar.</p>
+        </div>
+        <div class="footer__navigation-item-refresh">
+            <p class="item-refresh">Application refresh in</p>
+        </div>
+        <div class="footer__navigation-item-counter">
+            <span class="counter">600</span>
+            <p class="item-counter">seconds</p>
+        </div>
+        <div class="footer__navigation-item-continue">
+            <a href="https://noticias.uol.com.br/" target="_blank" class="continue-link">Continuar
+                Navegando</a>
+        </div>
+        <div class="footer__navigation-item-logout">
+            <a href="#" class="item-logout">Logout</a>
+        </div>
     </footer>
 </body>
+
 </html>
