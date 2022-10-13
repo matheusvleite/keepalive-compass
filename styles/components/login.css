@@ -1,5 +1,6 @@
 .welcome__main {
     display: flex;
+    background: var(--bg-gradiente);
 }
 
 .welcome__main--left {

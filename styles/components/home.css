@@ -1,7 +1,3 @@
-.welcome__main {
-    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%) no-repeat;
-}
-
 .menu__widgets-list {
     display: flex;
     justify-content: space-between;
@@ -28,4 +24,30 @@
     font-size: 48px;
     font-weight: 700;
     color: var(--color-third);
+}
+
+.mission__presentation {
+    background-image: url('../../img/bg-LogoCompasso.svg');
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 5rem;
+}
+
+.mission__presentation-subtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--subtitle-color);
+    margin: 1rem 0;
+}
+
+.mission__presentation-legend {
+    font-size: 24px;
+    color: var(--color-third);
+    margin: 1rem 0;
+}
+
+.mission__presentation-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--subtitle-color);
 }
