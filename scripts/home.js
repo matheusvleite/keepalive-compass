@@ -18,10 +18,28 @@ setInterval(() => {
     mouth = new Array('Janeiro', 'Fevereiro',
         'Março', 'Abril', 'Maio', 'Junho', 'Julho',
         'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro');
-    
-    day = new Array('Domingo', 'Segunda-feira', 'Terça-feira' , 
-    'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado');
 
-    document.querySelector('.menu__widget-date').innerHTML = day[dataCurrent.getDay()] + ', ' + 
+    day = new Array('Domingo', 'Segunda-feira', 'Terça-feira',
+        'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado');
+
+    document.querySelector('.menu__widget-date').innerHTML = day[dataCurrent.getDay()] + ', ' +
         (fix(dataCurrent.getDate()) + ' de ' + mouth[dataCurrent.getMonth()] + ' de ' + dataCurrent.getFullYear());
 }, 1000);
+
+
+// LOCATION
+
+
+function locationSucess(position) {
+    let lat = position.coords.latitude;
+    let long = position.coords.longitude;
+
+    coordsResult(lat,long);
+}
+
+function coordsResult(lat,long) {
+    console.log(lat, long)
+}
+
+navigator.geolocation.getCurrentPosition(locationSucess);
+
