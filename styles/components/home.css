@@ -1,0 +1,31 @@
+.welcome__main {
+    background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%) no-repeat;
+}
+
+.menu__widgets-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu__widgets-items {
+    padding: 1rem;
+}
+
+.menu__widgets-hour {
+    font-size: 144px;
+    font-weight: 700;
+    color: var(--color-third);
+}
+
+.menu__widget-date, 
+.menu__widget-location  {
+    color: var(--color-third);
+    font-size: 14px;
+}
+
+.menu__widget-weather {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-third);
+}
