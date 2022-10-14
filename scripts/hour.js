@@ -27,19 +27,5 @@ setInterval(() => {
 }, 1000);
 
 
-// LOCATION
 
-
-function locationSucess(position) {
-    let lat = position.coords.latitude;
-    let long = position.coords.longitude;
-
-    coordsResult(lat,long);
-}
-
-function coordsResult(lat,long) {
-    console.log(lat, long)
-}
-
-navigator.geolocation.getCurrentPosition(locationSucess);
 

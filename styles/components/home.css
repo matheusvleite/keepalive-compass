@@ -21,6 +21,12 @@
 }
 
 .menu__widget-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget-weather-temp {
     font-size: 48px;
     font-weight: 700;
     color: var(--color-third);
