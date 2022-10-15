@@ -1,6 +1,6 @@
 const itemCounter = document.querySelector('.item-counter');
 
-let counter = 5;
+let counter = 601;
 
 let interval = setInterval(() => {
     (function countdown(){

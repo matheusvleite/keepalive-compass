@@ -108,4 +108,7 @@ footer {
     text-decoration: none;
     color: var(--color-secondary);
     font-weight: 700;
+    cursor: pointer;
+    background: transparent;
+    border: none;
 }
