@@ -1,16 +1,27 @@
 const itemCounter = document.querySelector('.item-counter');
 
-let counter = 601;
+let counter = 5;
 
-function countdown(){
-    if(counter > 0) {
-        counter--;
-        itemCounter.innerHTML = counter;
-    } else {
-        window.location.href = '../index.html';
-    }
-}
+let interval = setInterval(() => {
+    (function countdown(){
+        if(counter > 0) {
+            counter--;
+            itemCounter.innerHTML = counter;
+        } else {
+            
+            if(confirm('Deseja permanecer logado?') == true) {
+                clearInterval(interval);
+                location.reload();
+            } else {
+                clearInterval(interval);
+                window.location.href = '../index.html';
+                localStorage.clear();
+            }
+            
+        }
+    }())
+},1000)
 
-setInterval('countdown()', 1000);
+
 
 
