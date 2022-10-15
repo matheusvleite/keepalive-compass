@@ -9,7 +9,7 @@
 }
 
 .menu__widgets-hour {
-    font-size: 144px;
+    font-size: 100px;
     font-weight: 700;
     color: var(--color-third);
 }
@@ -36,7 +36,7 @@
     background-image: url('../../img/bg-LogoCompasso.svg');
     background-repeat: no-repeat;
     text-align: right;
-    padding: 5rem;
+    padding: 6.5rem;
 }
 
 .mission__presentation-subtitle {
@@ -63,24 +63,30 @@ footer {
     height: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 14px;
 }
 
 .footer__navigation-item-descrip {
     margin: 1rem;
-    padding: 0 5rem;
     text-align: right;
+    width: 35%;
+}
+
+.item-descrip {
     border-right: 1px solid white;
+    padding: 1.5rem;
 }
 
 .footer__navigation-item-refresh {
     margin: 1rem;
+    width: 4%;
 }
 
 .footer__navigation-item-counter {
     margin: 1rem;
     text-align: center;
+    width: 4%;
 }
 
 .item-counter {
@@ -91,8 +97,8 @@ footer {
 
 .footer__navigation-item-continue {
     background-color: white;
-    margin: 1rem;
-    padding: 2.9rem;
+    margin-left: 3rem;
+    padding: 3.3rem 1.3rem;
 }
 
 .continue-link {

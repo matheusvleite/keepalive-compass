@@ -14,7 +14,7 @@ function locationSucess(position) {  // GET LATITUDE AND LONGITUDE
 
 function locationDenied() { // ERROR LOCATION DENIED
 
-    document.querySelector('.menu__widget-location').innerHTML = 'Geolocalização negada pelo usuário.';
+    document.querySelector('.menu__widget-location').innerHTML = 'Permita buscar sua localização...';
 }
 
 function coordsResult(lat,long) { // API WEATHER

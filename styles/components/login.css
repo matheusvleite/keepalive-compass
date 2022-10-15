@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.welcome__main-content {
+    margin: 1rem;
+}
+
 .welcome__main-title {
     font-size: 60px;
     margin-bottom: 1rem;
@@ -19,6 +23,7 @@
 
 .welcome__main-text {
     margin-bottom: 8rem;
+    width: 65%;
 }
 
 .welcome__main-form {
@@ -51,12 +56,12 @@
     width: 23px;
     height: 23px;
     margin: 0 1rem;
-    
 }
 
 .welcome__main-form-input:focus ~ label,
 .welcome__main-form-input:valid ~ label {
     margin: 0 -4rem;
+    transition: .5s ease-in;
 }
 
 .welcome__main-form-btn {
