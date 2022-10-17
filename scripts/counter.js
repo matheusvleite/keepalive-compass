@@ -1,4 +1,4 @@
-const itemCounter = document.querySelector('.item-counter');
+const itemCounter = document.querySelector('.refresh-item-counter');
 
 let counter = 601;
 
