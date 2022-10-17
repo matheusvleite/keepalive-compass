@@ -1,6 +1,8 @@
 <h2>Development project for Compass PB.</h2>
 
-<h2>Status: <span style="color: green;">Done</span></h2>
+<h2>Status: Done</h2>
+
+<h2>Project: Keep Alive:</h2>
 
 <h2>Technologies used:</h2>
 
