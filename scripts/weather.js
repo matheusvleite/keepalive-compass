@@ -27,7 +27,7 @@ setInterval(() => { // UPDATE LOCATION IN REAL TIME IF ALLOWED
 
     function display(response) { // SHOW RESULTS OF API
 
-            switch (response.location.region) {
+            switch (response.location.region) { // CONVERSION OF THE ABBREVIATIONS BRAZILIAN STATES
                 case 'Acre': response.location.region = 'AC'; break;
                 case "Alagoas": response.location.region = "AL"; break;
                 case "Amazonas": response.location.region = "AM"; break;

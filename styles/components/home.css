@@ -26,6 +26,11 @@
     justify-content: center;
 }
 
+.widget-weather-icon {
+    width: 40px;
+    height: 40px;
+}
+
 .widget-weather-temp {
     font-size: 48px;
     font-weight: 700;
