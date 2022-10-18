@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    padding: 0 2rem;
 }
 
 .menu__widgets-items {
@@ -87,11 +88,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 2rem;
+    width: 20%;
 }
 
 .item-refresh-text {
-    width: 5%;
+    width: 20%;
+    text-align: right;
 }
 
 .item-content-counter {
@@ -107,7 +110,7 @@ footer {
 .footer-navigation-item-buttons {
     display: flex;
     align-items: center;
-    width: 12%;
+    width: 15%;
     justify-content: end;
 }
 
@@ -123,7 +126,7 @@ footer {
 }
 
 .footer__navigation-item-logout {
-    margin: 1rem;
+    margin: 3rem;
 }
 
 .item-logout {

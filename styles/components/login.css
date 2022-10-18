@@ -32,6 +32,11 @@
     gap: 1.5rem;
 }
 
+.welcome__main-login {
+    display: flex;
+    align-items: center;
+}
+
 .welcome__main-login-title {
     font-size: 30px;
     align-self: flex-start;
@@ -61,7 +66,7 @@
 .welcome__main-form-input:focus ~ label,
 .welcome__main-form-input:valid ~ label {
     margin: 0 -4rem;
-    transition: .5s ease-in;
+    transition: .3s ease-in;
 }
 
 .welcome__main-form-btn {
